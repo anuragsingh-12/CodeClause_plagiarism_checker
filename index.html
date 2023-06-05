@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plagiarism Checker Website</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Plagiarism Checker</h1>
+        <div class="form-group">
+          <label for="text1">Enter Text 1:</label>
+          <textarea id="text1" rows="5" cols="50"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="text2">Enter Text 2:</label>
+          <textarea id="text2" rows="5" cols="50"></textarea>
+        </div>
+        <div class="form-group">
+          <button class="btn" onclick="checkPlagiarism()">Check Plagiarism</button>
+        </div>
+        <div class="results">
+          <p id="result"></p>
+        </div>
+    </div>
+    
+
+
+
+
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
